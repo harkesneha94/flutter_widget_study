@@ -20,19 +20,22 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               Container(
                 height: 100,
-                width: double.infinity,
                 color : Colors.white,
                 child: Text('Container 1'),
               ),
-              Container(
-                height: 100,
-                width: double.infinity,
-                color : Colors.blue,
-                child: Text('Container 2'),
+              SizedBox(
+                height: 20,
               ),
               Container(
                 height: 100,
-                width: double.infinity,
+                color : Colors.blue,
+                child: Text('Container 2'),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                height: 100,
                 color : Colors.orange,
                 child: Text('Container 3'),
               )
