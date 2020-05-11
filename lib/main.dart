@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
             children: <Widget>[
               Container(
                 height: 100,
-                width: 100,
+                width: 200,
                 color : Colors.white,
                 child: Text('Container 1'),
               ),
