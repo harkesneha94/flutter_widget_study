@@ -16,25 +16,25 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             // try to align at right
-            crossAxisAlignment: CrossAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Container(
                 height: 100,
+                width: double.infinity,
                 color : Colors.white,
                 child: Text('Container 1'),
               ),
               Container(
                 height: 100,
+                width: double.infinity,
                 color : Colors.blue,
                 child: Text('Container 2'),
               ),
               Container(
                 height: 100,
+                width: double.infinity,
                 color : Colors.orange,
                 child: Text('Container 3'),
-              ),
-              Container(
-                width: double.infinity,
               )
           ],
           ),
