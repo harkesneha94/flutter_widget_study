@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: Container(
+          height: 100,
+          width: 100,
           color : Colors.white,
           child: Text('Hello'),
         ),
