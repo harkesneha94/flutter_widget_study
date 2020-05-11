@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+           // mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               Container(
                 height: 100.0,
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.blue),
               Container(width: 100,
                   height: 100,
-                  color: Colors.red)
+                  color: Colors.orange)
             ],
           ),
         ),
